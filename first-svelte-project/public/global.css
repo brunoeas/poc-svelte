@@ -1,0 +1,32 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/* Defaults */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  position: relative;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: black;
+  background-color: white;
+  overflow: hidden;
+  font-size: 14px; /* 1em ou 1rem === 14px */
+  font-family: 'Montserrat', sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Defaults */
+
+/* :root {
+  --dark: #30343f;
+  --light: #ebebeb;
+} */
